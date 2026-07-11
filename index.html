@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Naya Finds | Smart Shopping</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+
+background:#090909;
+color:white;
+overflow-x:hidden;
+
+}
+
+/* Aurora Background */
+
+body::before{
+
+content:"";
+
+position:fixed;
+
+width:700px;
+height:700px;
+
+background:#7d4cff;
+
+filter:blur(180px);
+
+top:-250px;
+left:-200px;
+
+opacity:.45;
+
+z-index:-2;
+
+}
+
+body::after{
+
+content:"";
+
+position:fixed;
+
+width:700px;
+height:700px;
+
+background:#00d9ff;
+
+filter:blur(180px);
+
+bottom:-300px;
+right:-250px;
+
+opacity:.35;
+
+z-index:-2;
+
+}
+
+/* Container */
+
+.container{
+
+max-width:430px;
+
+margin:auto;
+
+padding:30px 20px;
+
+}
+
+/* Logo */
+
+.logo{
+
+width:140px;
+
+display:block;
+
+margin:auto;
+
+border-radius:50%;
+
+box-shadow:0 0 30px rgba(130,90,255,.5);
+
+animation:float 4s ease-in-out infinite;
+
+}
+
+@keyframes float{
+
+50%{
+
+transform:translateY(-8px);
+
+}
+
+}
+
+/* Title */
+
+h1{
+
+text-align:center;
+
+margin-top:20px;
+
+font-size:34px;
+
+letter-spacing:3px;
+
+}
+
+.subtitle{
+
+text-align:center;
+
+margin-top:8px;
+
+color:#cfcfcf;
+
+font-size:15px;
+
+}
+
+/* Divider */
+
+.line{
+
+width:90px;
+
+height:4px;
+
+border-radius:50px;
+
+background:linear-gradient(90deg,#00E5FF,#A855F7);
+
+margin:25px auto;
+
+}
+
+/* Buttons */
+
+.button{
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+gap:10px;
+
+text-decoration:none;
+
+background:#151515;
+
+color:white;
+
+padding:18px;
+
+margin-top:18px;
+
+border-radius:18px;
+
+font-size:18px;
+
+font-weight:600;
+
+transition:.35s;
+
+border:1px solid rgba(255,255,255,.08);
+
+}
+
+.button:hover{
+
+transform:translateY(-4px);
+
+background:#1d1d1d;
+
+box-shadow:0 0 25px rgba(0,229,255,.25);
+
+}
+
+/* Footer */
+
+.footer{
+
+margin-top:45px;
+
+text-align:center;
+
+font-size:13px;
+
+color:#9f9f9f;
+
+}
+
+.footer a{
+
+color:#00E5FF;
+
+text-decoration:none;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="logo.png" class="logo">
+
+<h1>NAYA FINDS</h1>
+
+<p class="subtitle">
+
+Find Better. Shop Smarter.
+
+</p>
+
+<div class="line"></div>
+
+<a class="button" href="#">
+
+🔥 Today's Picks
+
+</a>
+
+<a class="button" href="#">
+
+📱 Gadget
+
+</a>
+
+<a class="button" href="#">
+
+👗 Fashion
+
+</a>
+
+<a class="button" href="#">
+
+🏠 Home Living
+
+</a>
+
+<a class="button" href="#">
+
+💄 Beauty
+
+</a>
+
+<a class="button" href="#">
+
+🎧 Audio
+
+</a>
+
+<a class="button" href="#">
+
+⚡ Promo Hari Ini
+
+</a>
+
+<div class="footer">
+
+<p>
+
+© 2026 Naya Finds
+
+</p>
+
+<br>
+
+<p>
+
+Quality • Finds • Lifestyle
+
+</p>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
